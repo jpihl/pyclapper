@@ -1,3 +1,7 @@
+"""
+The MIT License (MIT)
+Copyright (c) 2016 Jeppe Pihl
+"""
 import time
 import array
 import pyaudio
@@ -13,7 +17,6 @@ def clapper(stopped, clap_callback):
         rate=44100,
         input=True,
         frames_per_buffer=1024)
-
     last = 0
     while True:
         if stopped.wait(timeout=0):
