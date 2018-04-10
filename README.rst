@@ -2,7 +2,7 @@ pyclapper
 =========
 pyclapper a python tribute to the 80s classic, The Clapper!
 
-.. image:: http://img.youtube.com/vi/Ny8-G8EoWOw/hqdefault.jpg
+.. image:: https://raw.githubusercontent.com/jpihl/pyclapper/master/clapper.gif
    :target: https://youtu.be/Ny8-G8EoWOw
 
 Installation
@@ -19,7 +19,7 @@ Usage
 The pyclapper repository contains 3 files:
 
 * ``clapper.py`` contains a function that calls a given callback when a double clap is detected.
-* ``light.py`` contains a simple pygame class which creates a full screen application that can 
+* ``light.py`` contains a simple pygame class which creates a full screen application that can
   toggle between black and white - simulating a light.
 * ``main.py`` application combining ``clapper.py`` and ``light.py`` to toggle the light.
 
