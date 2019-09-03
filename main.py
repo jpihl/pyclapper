@@ -1,8 +1,9 @@
 #!/usr/bin/env python
-"""
-The MIT License (MIT)
-Copyright (c) 2016 Jeppe Pihl
-"""
+
+# Copyright (c) 2019 Jeppe Pihl
+# All Rights Reserved
+#
+# Distributed under the "BSD License". See the accompanying LICENSE file.
 import threading
 import clapper
 import light
